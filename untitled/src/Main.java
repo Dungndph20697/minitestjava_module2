@@ -7,7 +7,6 @@ public class Main {
 
         ContactManager contactManager = new ContactManager();
         Scanner sc = new Scanner(System.in);
-        contactManager.fakeData();
         while (true) {
             System.out.println("=====MENU=====");
             System.out.println("1. Xem danh sach");
